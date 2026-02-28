@@ -33,6 +33,7 @@ export default function AboutPage() {
                 src="/candace-calloway-headshot.jpeg"
                 alt={`${theme.candidate.name} headshot`}
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-contain"
                 priority
               />
