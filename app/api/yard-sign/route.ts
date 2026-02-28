@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, address, city, state, zipCode, quantity, bumperSticker } = body;
+    const { name, email, address, city, state, zipCode, quantity } = body;
 
     if (!name || !email || !address || !city || !zipCode) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
@@ -17,7 +17,6 @@ export async function POST(request: NextRequest) {
         body: JSON.stringify({
           name, email, address, city, state, zipCode,
           quantity: quantity || 1,
-          bumperSticker: bumperSticker || false,
           source: 'website',
           timestamp: new Date().toISOString(),
         }),

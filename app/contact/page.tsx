@@ -17,17 +17,11 @@ export default function ContactPage() {
           subtitle="Have a question, press inquiry, or partnership opportunity? We'd love to hear from you."
         />
 
-        <div className="grid sm:grid-cols-2 gap-6 mb-12">
-          <div className="p-5 rounded-xl bg-surface">
+        <div className="mb-12">
+          <div className="p-5 rounded-xl bg-surface inline-block">
             <h3 className="font-semibold text-text mb-1">Email</h3>
             <a href={`mailto:${theme.contact.email}`} className="text-primary hover:underline text-sm">
               {theme.contact.email}
-            </a>
-          </div>
-          <div className="p-5 rounded-xl bg-surface">
-            <h3 className="font-semibold text-text mb-1">Phone</h3>
-            <a href={`tel:${theme.contact.phone.replace(/[^+\d]/g, '')}`} className="text-primary hover:underline text-sm">
-              {theme.contact.phone}
             </a>
           </div>
         </div>

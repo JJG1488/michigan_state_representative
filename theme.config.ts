@@ -22,7 +22,7 @@ export const theme = {
       "Meals on Wheels",
       "Founded The Black Pack",
     ],
-    dog: { name: "Lucy", breed: "German Shepherd", includeOnEndorsements: true },
+    dog: { name: "Lucy", breed: "Pit Bull Terrier", includeOnEndorsements: true },
     connection: "Native Detroiter",
   },
   issues: {
@@ -55,7 +55,7 @@ export const theme = {
         color: "#060951",
         slug: "education",
         topics: ["K-12 readiness", "Reading & math scores", "Statewide curriculum", "Trades & workforce", "College alternatives", "Early childhood & Pre-K funding", "Teacher-family-admin relationships"],
-        heroStat: { value: "39th", label: "out of 50 states in 3rd grade reading" },
+        heroStat: { value: "44th", label: "out of 50 states in 3rd grade reading" },
         positionSummary: "Everyone, regardless of background, deserves access to high-quality education in their own backyard that prepares them for a rapidly changing world. We can get there together by fostering strong relationships between teachers, family and administration and investing in early childhood and Pre-K funding.",
         emotionalAngle: "Every child in Michigan deserves a world-class education — whether their path leads to a university or a union hall.",
         solutions: [
@@ -155,7 +155,7 @@ export const theme = {
   },
   contact: {
     email: "votecandacecalloway@gmail.com",
-    phone: "(313) 461-9127",
+    phone: "(313) 857-8989",
     formSubmissionsEmail: "votecandacecalloway@gmail.com",
     crm: "NGP VAN",
     googleSheets: true,
@@ -173,8 +173,8 @@ export const theme = {
   },
   endorsements: {
     confirmed: [
-      { name: "Marian McClellan", title: "Oak Park Mayor" },
-      { name: "Angela Whitfield Calloway", title: "Councilwoman, District 2" },
+      { name: "Marian McClellan", title: "Oak Park Mayor", photo: "" },
+      { name: "Angela Whitfield Calloway", title: "Councilwoman, District 2", photo: "" },
     ],
     includeLucy: true,
   },

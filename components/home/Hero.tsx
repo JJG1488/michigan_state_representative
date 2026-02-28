@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { theme } from '@/theme.config';
+import Image from 'next/image';
 
 export default function HeroSection() {
   return (
@@ -12,6 +13,13 @@ export default function HeroSection() {
         backgroundImage: 'radial-gradient(circle at 25% 25%, white 1px, transparent 1px)',
         backgroundSize: '50px 50px',
       }} />
+      <Image
+        src="/candacecallowayhero.jpeg"
+        alt="Candace Calloway Headshot"
+        fill
+        className="object-cover object-top opacity-20"
+        priority
+      />
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
@@ -19,14 +27,17 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
-          <p className="text-white/70 text-sm sm:text-base font-medium tracking-widest uppercase mb-4">
+          {/* <p className="text-white/70 text-sm sm:text-base font-medium tracking-widest uppercase mb-4">
             For Michigan State Representative
-          </p>
-          <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-white tracking-tight leading-[0.9]">
-            Candace
-            <br />
-            Calloway
-          </h1>
+          </p> */}
+          <Image
+            src="/CampaignLogo.jpeg"
+            alt="Candace Calloway Campaign Logo"
+            width={600}
+            height={300}
+            className="mx-auto w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto"
+            priority
+          />
         </motion.div>
 
         <motion.p
@@ -35,7 +46,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
           className="mt-6 sm:mt-8 text-xl sm:text-2xl text-white/80 max-w-2xl mx-auto font-light"
         >
-          For the families who built this city — and the ones who will.
+          For Michigan State Representative - District 5 
         </motion.p>
 
         <motion.div

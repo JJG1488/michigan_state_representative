@@ -123,20 +123,6 @@ export default function DistrictClient({ regions }: DistrictClientProps) {
         </AnimatePresence>
       </div>
 
-      {/* Community Cards */}
-      <div className="lg:col-span-2 grid sm:grid-cols-3 gap-6 mt-8">
-        {regions.map((region) => (
-          <div
-            key={region.id}
-            className="p-6 rounded-xl bg-white border border-border hover:shadow-md transition-shadow"
-          >
-            <div className="w-3 h-3 rounded-full mb-3" style={{ backgroundColor: region.color }} />
-            <h3 className="font-bold text-text mb-1">{region.name}</h3>
-            <p className="text-sm text-text-muted mb-2">{region.population}</p>
-            <p className="text-sm text-text-muted italic">&ldquo;{region.candidateQuote}&rdquo;</p>
-          </div>
-        ))}
-      </div>
     </div>
   );
 }

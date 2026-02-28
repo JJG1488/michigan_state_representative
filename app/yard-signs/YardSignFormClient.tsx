@@ -11,7 +11,6 @@ export default function YardSignFormClient() {
     state: 'MI',
     zipCode: '',
     quantity: 1,
-    bumperSticker: false,
   });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
@@ -82,11 +81,6 @@ export default function YardSignFormClient() {
           ))}
         </select>
       </div>
-      <label className="flex items-center gap-3 p-3 rounded-lg border border-border cursor-pointer hover:border-primary/30 transition-colors">
-        <input type="checkbox" checked={formData.bumperSticker} onChange={(e) => setFormData({ ...formData, bumperSticker: e.target.checked })} className="w-4 h-4 rounded border-border text-primary focus:ring-primary" />
-        <span className="text-sm text-text">I can also display a bumper sticker</span>
-      </label>
-
       {status === 'error' && <p className="text-red-500 text-sm" role="alert">Something went wrong. Please try again.</p>}
 
       <button type="submit" disabled={status === 'loading'} className="w-full py-4 text-lg font-bold text-white bg-secondary rounded-lg hover:bg-cta-green transition-colors disabled:opacity-50">

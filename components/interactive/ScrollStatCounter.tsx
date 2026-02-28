@@ -28,10 +28,10 @@ export default function ScrollStatCounter({
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
   const prefersReduced = usePrefersReducedMotion();
-  const [displayValue, setDisplayValue] = useState(direction === 'up' ? 0 : targetValue);
+  const [displayValue, setDisplayValue] = useState(direction === 'up' ? 0 : Math.ceil(targetValue * 1.5));
 
-  const startValue = direction === 'up' ? 0 : targetValue;
-  const endValue = direction === 'up' ? targetValue : 1;
+  const startValue = direction === 'up' ? 0 : Math.ceil(targetValue * 1.5);
+  const endValue = targetValue;
 
   const motionValue = useMotionValue(startValue);
   const springValue = useSpring(motionValue, {

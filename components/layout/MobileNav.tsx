@@ -9,11 +9,8 @@ const ALL_NAV_ITEMS = [
   { label: 'Issues', href: '/issues' },
   { label: 'Get Involved', href: '/get-involved' },
   { label: 'District', href: '/district' },
-  { label: 'Endorsements', href: '/endorsements' },
   { label: 'Events', href: '/events' },
-  { label: 'Voter Info', href: '/voter-info' },
   { label: 'Research', href: '/research' },
-  { label: 'Contact', href: '/contact' },
 ] as const;
 
 interface MobileNavProps {
@@ -51,10 +48,15 @@ export default function MobileNav({ isOpen, onClose }: MobileNavProps) {
           >
             <div className="flex flex-col h-full">
               <div className="flex items-center justify-between p-4 border-b border-border">
-                <span className="text-xl font-bold">
-                  <span className="text-primary">C</span>
-                  <span className="text-secondary">C</span>
-                </span>
+                <div>
+                  <span className="text-xl font-bold">
+                    <span className="text-primary">C</span>
+                    <span className="text-secondary">C</span>
+                  </span>
+                  <span className="block text-[10px] text-text-muted leading-tight">
+                    MI State Rep District 5
+                  </span>
+                </div>
                 <button
                   onClick={onClose}
                   className="p-2 text-text-muted hover:text-text rounded-lg transition-colors"

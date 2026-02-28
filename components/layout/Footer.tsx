@@ -7,9 +7,6 @@ const FOOTER_LINKS = [
   { label: 'Get Involved', href: '/get-involved' },
   { label: 'Donate', href: '/donate' },
   { label: 'District', href: '/district' },
-  { label: 'Endorsements', href: '/endorsements' },
-  { label: 'Voter Info', href: '/voter-info' },
-  { label: 'Contact', href: '/contact' },
 ] as const;
 
 export default function Footer() {
@@ -26,7 +23,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-3 text-lg font-semibold">{theme.candidate.name}</p>
-            <p className="text-white/70 text-sm">for {theme.candidate.office}</p>
+            <p className="text-white/70 text-sm">for Michigan State Representative District 5</p>
             <p className="mt-2 text-white/60 text-sm italic">&ldquo;{theme.candidate.tagline}&rdquo;</p>
           </div>
 
@@ -58,11 +55,13 @@ export default function Footer() {
                   {theme.contact.email}
                 </a>
               </p>
-              <p>
-                <a href={`tel:${theme.contact.phone.replace(/[^+\d]/g, '')}`} className="hover:text-white transition-colors">
-                  {theme.contact.phone}
-                </a>
-              </p>
+              {theme.contact.phone && (
+                <p>
+                  <a href={`tel:${theme.contact.phone.replace(/[^+\d]/g, '')}`} className="hover:text-white transition-colors">
+                    {theme.contact.phone}
+                  </a>
+                </p>
+              )}
             </div>
           </div>
         </div>
@@ -77,6 +76,9 @@ export default function Footer() {
           </p>
           <p className="text-center text-xs text-white/40 mt-4">
             &copy; {new Date().getFullYear()} {theme.compliance.committeeName}. All rights reserved.
+          </p>
+          <p className="text-center text-xs text-white/30 mt-2">
+            Website by James Gault
           </p>
         </div>
       </div>

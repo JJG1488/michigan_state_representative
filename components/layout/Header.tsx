@@ -25,7 +25,10 @@ export default function Header() {
                 <span className="text-secondary">C</span>
               </span>
               <span className="hidden sm:block text-sm font-medium text-text-muted leading-tight">
-                Candace<br />Calloway
+                Candace Calloway
+                <span className="block text-xs text-text-muted/70 font-normal">
+                  For MI State Rep District 5
+                </span>
               </span>
             </Link>
 

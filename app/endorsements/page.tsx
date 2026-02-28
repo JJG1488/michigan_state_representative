@@ -19,7 +19,7 @@ export default function EndorsementsPage() {
   if (theme.endorsements.includeLucy) {
     endorsements.push({
       name: 'Lucy',
-      title: 'Campaign German Shepherd',
+      title: `Campaign ${theme.candidate.dog.breed}`,
       isNew: false,
     });
   }
@@ -63,13 +63,13 @@ export default function EndorsementsPage() {
                 </h3>
                 <div className="p-6 rounded-xl border-2 border-secondary bg-green-50">
                   <div className="flex items-center gap-4">
-                    <span className="text-4xl">🐕</span>
+                    {/* <span className="text-4xl">🐕</span> */}
                     <div>
                       <p className="font-bold text-text text-lg">Lucy</p>
-                      <p className="text-text-muted">Campaign German Shepherd</p>
-                      <p className="text-sm text-text-muted mt-1 italic">
+                      <p className="text-text-muted">Campaign {theme.candidate.dog.breed}</p>
+                      {/* <p className="text-sm text-text-muted mt-1 italic">
                         &ldquo;Even Lucy approves!&rdquo;
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
