@@ -12,8 +12,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Candace Calloway for State Representative | Lead with Hope",
-    template: "%s | Candace Calloway for State Representative",
+    default: "Candace Calloway District 5for State Representative | Lead with Hope",
+    template: "%s | Candace Calloway for District 5 State Representative",
   },
   description:
     "Candace Calloway for Michigan State House Representative — Lead with Hope. Fighting for affordability, education, and safe infrastructure in NW Detroit, Oak Park, and Royal Oak Township.",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "infrastructure",
   ],
   openGraph: {
-    title: "Candace Calloway for State Representative | Lead with Hope",
+    title: "Candace Calloway for District 5 State Representative | Lead with Hope",
     description:
       "Fighting for affordability, education, and safe infrastructure in NW Detroit, Oak Park, and Royal Oak Township.",
     url: "https://votecandacecalloway.com",
@@ -42,13 +42,13 @@ export const metadata: Metadata = {
         url: "/CampaignLogov1.jpeg",
         width: 1200,
         height: 630,
-        alt: "Candace Calloway for State Representative",
+        alt: "Candace Calloway for District 5 State Representative",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Candace Calloway for State Representative",
+    title: "Candace Calloway for District 5 State Representative",
     description:
       "Lead with Hope — Fighting for affordability, education, and safe infrastructure.",
     images: ["/CampaignLogov1.jpeg"],
