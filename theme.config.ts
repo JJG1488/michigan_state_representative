@@ -30,7 +30,7 @@ export const theme = {
       {
         title: "Affordability",
         tagline: "Making Life Affordable for Every Family",
-        // icon: "wallet",
+        icon: "wallet",
         priority: 1,
         color: "#0A7D3F",
         slug: "affordability",
@@ -50,7 +50,7 @@ export const theme = {
       {
         title: "Educational Outcomes",
         tagline: "Investing in Our Children's Future",
-        // icon: "book-open",
+        icon: "book-open",
         priority: 2,
         color: "#060951",
         slug: "education",
@@ -70,7 +70,7 @@ export const theme = {
       {
         title: "Safe Infrastructure Investment",
         tagline: "Building Stronger Communities",
-        // icon: "building",
+        icon: "building",
         priority: 3,
         color: "#0D3D2B",
         slug: "infrastructure",
