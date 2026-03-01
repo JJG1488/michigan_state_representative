@@ -5,8 +5,8 @@ const FOOTER_LINKS = [
   { label: 'About', href: '/about' },
   { label: 'Issues', href: '/issues' },
   { label: 'Get Involved', href: '/get-involved' },
-  { label: 'Donate', href: '/donate' },
-  { label: 'District', href: '/district' },
+  { label: 'Events', href: '/events' },
+  { label: 'Contact', href: '/contact' },
 ] as const;
 
 export default function Footer() {

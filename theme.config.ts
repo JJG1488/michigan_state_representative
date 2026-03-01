@@ -30,7 +30,7 @@ export const theme = {
       {
         title: "Affordability",
         tagline: "Making Life Affordable for Every Family",
-        icon: "wallet",
+        // icon: "wallet",
         priority: 1,
         color: "#0A7D3F",
         slug: "affordability",
@@ -50,7 +50,7 @@ export const theme = {
       {
         title: "Educational Outcomes",
         tagline: "Investing in Our Children's Future",
-        icon: "book-open",
+        // icon: "book-open",
         priority: 2,
         color: "#060951",
         slug: "education",
@@ -70,7 +70,7 @@ export const theme = {
       {
         title: "Safe Infrastructure Investment",
         tagline: "Building Stronger Communities",
-        icon: "building",
+        // icon: "building",
         priority: 3,
         color: "#0D3D2B",
         slug: "infrastructure",
@@ -163,13 +163,32 @@ export const theme = {
   },
   events: {
     announcementEvents: [
-      { date: "March 6, 2026", location: "Detroit", type: "Campaign Announcement" },
-      { date: "March 7, 2026", location: "Oak Park", type: "Campaign Announcement (tentative)" },
+      {
+        date: "March 6, 2026",
+        time: "6:00 PM",
+        location: "Detroit",
+        venue: "U of D Jesuit Johnson Recreation Center",
+        address: "8550 Chippewa Avenue, Detroit, MI 48235",
+        type: "Campaign Kickoff",
+        flyer: "/campaignkickoffmarch6.png",
+      },
+      {
+        date: "March 7, 2026",
+        time: "2:00 PM",
+        location: "Oak Park",
+        venue: "Hansen's Hall",
+        address: "8210 W Nine Mile Rd, Oak Park, MI 48237",
+        type: "Campaign Kickoff",
+        flyer: "/campaignkickoffmarch7.png",
+      },
     ],
     estimatedFrequency: "1 per month",
     rsvpEnabled: true,
     hidePastEvents: true,
     managedBy: "Candace (self)",
+  },
+  links: {
+    emailSignupForm: "",
   },
   endorsements: {
     confirmed: [
