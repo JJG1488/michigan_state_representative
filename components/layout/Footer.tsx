@@ -77,7 +77,7 @@ export default function Footer() {
           <p className="text-center text-xs text-white/40 mt-4">
             &copy; {new Date().getFullYear()} {theme.compliance.committeeName}. All rights reserved.
           </p>
-          <p className="text-center text-xs text-white/30 mt-2">
+          <p className="text-center text-xs text-white/30 mt-2 pb-16 md:pb-0">
             Website by James Gault
           </p>
         </div>
