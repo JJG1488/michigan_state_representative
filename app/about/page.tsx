@@ -30,7 +30,7 @@ export default function AboutPage() {
             </div>
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
               <Image
-                src="/cc.JPG"
+                src="/aboutpage.JPG"
                 alt={`${theme.candidate.name} headshot`}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
