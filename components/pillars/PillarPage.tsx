@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import type { Pillar } from '@/theme.config';
 import CTABanner from '@/components/shared/CTABanner';
@@ -11,14 +12,33 @@ const ICONS: Record<string, string> = {
 
 interface PillarPageProps {
   pillar: Pillar;
+  heroImage?: string;
 }
 
-export default function PillarPage({ pillar }: PillarPageProps) {
+export default function PillarPage({ pillar, heroImage }: PillarPageProps) {
   return (
     <>
       {/* Hero */}
-      <section className="py-20 sm:py-28 text-white" style={{ backgroundColor: pillar.color }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section
+        className={`py-20 sm:py-28 text-white${heroImage ? ' relative overflow-hidden' : ''}`}
+        style={{ backgroundColor: pillar.color }}
+      >
+        {heroImage && (
+          <>
+            <Image
+              src={heroImage}
+              alt=""
+              fill
+              className="object-cover"
+              priority
+            />
+            <div
+              className="absolute inset-0"
+              style={{ backgroundColor: pillar.color, opacity: 0.75 }}
+            />
+          </>
+        )}
+        <div className={`max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center${heroImage ? ' relative z-10' : ''}`}>
           <span className="text-4xl mb-4 block" aria-hidden="true">{ICONS[pillar.icon] || '📋'}</span>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-4">
             {pillar.tagline}
