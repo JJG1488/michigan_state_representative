@@ -36,12 +36,14 @@ export default function DonateSection() {
 
           <DonationImpact selectedAmount={selectedAmount} className="mb-8" />
 
-          <Link
-            href="/donate"
+          <a
+            href={theme.donation.actBlueUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-10 py-4 text-lg font-bold text-white bg-secondary rounded-lg hover:bg-cta-green transition-all duration-200 shadow-lg"
           >
             Contribute Now
-          </Link>
+          </a>
 
           <p className="mt-4 text-xs text-text-muted">
             {theme.compliance.disclaimerText}. Individual limit: $1,000 per election cycle.

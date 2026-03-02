@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { theme } from '@/theme.config';
 import SectionHeader from '@/components/shared/SectionHeader';
 
 export const metadata: Metadata = {
@@ -27,7 +28,8 @@ export default function GetInvolvedPage() {
     {
       title: 'Donate',
       description: 'Every dollar stays local — powering outreach across NW Detroit, Oak Park, and Royal Oak Township.',
-      href: '/donate',
+      href: theme.donation.actBlueUrl,
+      external: true,
       // icon: (
       //   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#065124" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
       //     <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -68,13 +70,25 @@ export default function GetInvolvedPage() {
               {/* <div className="mb-4">{action.icon}</div> */}
               <h3 className="text-xl font-bold text-text mb-2">{action.title}</h3>
               <p className="text-text-muted text-sm mb-6 flex-1">{action.description}</p>
-              <Link
-                href={action.href}
-                className="block text-center py-3 text-white font-semibold rounded-lg transition-colors"
-                style={{ backgroundColor: action.color }}
-              >
-                {action.cta}
-              </Link>
+              {'external' in action ? (
+                <a
+                  href={action.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-center py-3 text-white font-semibold rounded-lg transition-colors"
+                  style={{ backgroundColor: action.color }}
+                >
+                  {action.cta}
+                </a>
+              ) : (
+                <Link
+                  href={action.href}
+                  className="block text-center py-3 text-white font-semibold rounded-lg transition-colors"
+                  style={{ backgroundColor: action.color }}
+                >
+                  {action.cta}
+                </Link>
+              )}
             </div>
           ))}
         </div>

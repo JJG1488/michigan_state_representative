@@ -1,4 +1,7 @@
 import Link from 'next/link';
+import { theme } from '@/theme.config';
+
+const actBlueUrl = theme.donation.actBlueUrl;
 
 interface CTABannerProps {
   className?: string;
@@ -15,12 +18,14 @@ export default function CTABanner({ className = '' }: CTABannerProps) {
           Join the movement for a stronger, more affordable, and better-educated community.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link
-            href="/donate"
+          <a
+            href={actBlueUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 py-4 text-lg font-bold text-primary bg-white rounded-lg hover:bg-gray-100 transition-colors"
           >
             Donate
-          </Link>
+          </a>
           <Link
             href="/volunteer"
             className="w-full sm:w-auto px-8 py-4 text-lg font-bold text-white border-2 border-white rounded-lg hover:bg-white/10 transition-colors"

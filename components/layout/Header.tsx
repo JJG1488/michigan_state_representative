@@ -2,7 +2,10 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { theme } from '@/theme.config';
 import MobileNav from './MobileNav';
+
+const actBlueUrl = theme.donation.actBlueUrl;
 
 const NAV_ITEMS = [
   { label: 'About', href: '/about' },
@@ -53,12 +56,14 @@ export default function Header() {
               >
                 Volunteer
               </Link>
-              <Link
-                href="/donate"
+              <a
+                href={actBlueUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-5 py-2.5 text-sm font-semibold text-white bg-secondary rounded-lg hover:bg-cta-green transition-all duration-200"
               >
                 Donate
-              </Link>
+              </a>
             </div>
 
             {/* Mobile Hamburger */}
@@ -82,12 +87,14 @@ export default function Header() {
 
       {/* Mobile Fixed Donate Bar */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 bg-secondary p-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)]">
-        <Link
-          href="/donate"
+        <a
+          href={actBlueUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className="block w-full text-center py-3 text-white font-bold text-lg rounded-lg bg-primary hover:bg-cta-hover transition-colors"
         >
           Donate Now
-        </Link>
+        </a>
       </div>
     </>
   );

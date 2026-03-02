@@ -137,7 +137,7 @@ export const theme = {
     currentAmount: 0,
     showThermometer: false,
     enableRecurring: true,
-    actBlueUrl: "",
+    actBlueUrl: "https://secure.actblue.com/donate/votecandacecalloway",
     stripePublishableKey: "",
     enableApplePay: true,
     enableCashApp: true,

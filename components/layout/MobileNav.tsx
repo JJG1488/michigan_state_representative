@@ -2,7 +2,10 @@
 
 import { useEffect } from 'react';
 import Link from 'next/link';
+import { theme } from '@/theme.config';
 import { motion, AnimatePresence } from 'framer-motion';
+
+const actBlueUrl = theme.donation.actBlueUrl;
 
 const ALL_NAV_ITEMS = [
   { label: 'About', href: '/about' },
@@ -98,13 +101,15 @@ export default function MobileNav({ isOpen, onClose }: MobileNavProps) {
                 >
                   Volunteer
                 </Link>
-                <Link
-                  href="/donate"
+                <a
+                  href={actBlueUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={onClose}
                   className="block w-full text-center py-3 text-white font-semibold bg-secondary rounded-lg hover:bg-cta-green transition-all"
                 >
                   Donate
-                </Link>
+                </a>
               </div>
             </div>
           </motion.div>
