@@ -9,5 +9,5 @@ export const metadata: Metadata = {
 
 export default function InfrastructurePage() {
   const pillar = theme.issues.pillars[2];
-  return <PillarPage pillar={pillar} />;
+  return <PillarPage pillar={pillar} heroImage="/infrastructure.jpg" />;
 }
