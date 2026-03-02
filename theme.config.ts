@@ -147,10 +147,6 @@ export const theme = {
   contact: {
     email: "votecandacecalloway@gmail.com",
     phone: "(313) 857-8989",
-    formSubmissionsEmail: "votecandacecalloway@gmail.com",
-    crm: "NGP VAN",
-    googleSheets: true,
-    automatedConfirmationEmails: true,
   },
   events: {
     announcementEvents: [
@@ -174,12 +170,15 @@ export const theme = {
       },
     ],
     estimatedFrequency: "1 per month",
-    rsvpEnabled: true,
     hidePastEvents: true,
     managedBy: "Candace (self)",
   },
-  links: {
-    emailSignupForm: "",
+  forms: {
+    contact: "",
+    rsvp: "",
+    volunteer: "",
+    yardSign: "",
+    subscribe: "",
   },
   endorsements: {
     confirmed: [

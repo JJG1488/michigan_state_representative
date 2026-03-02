@@ -2,7 +2,7 @@ import SectionReveal from '@/components/animation/SectionReveal';
 import { theme } from '@/theme.config';
 
 export default function EmailCapture() {
-  const formUrl = theme.links?.emailSignupForm || '#';
+  const formUrl = theme.forms.subscribe;
 
   return (
     <section className="py-16 sm:py-20 bg-primary">
@@ -15,14 +15,23 @@ export default function EmailCapture() {
             Get updates on the campaign and ways to make a difference in your community.
           </p>
 
-          <a
-            href={formUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-6 py-3 bg-secondary text-white font-semibold rounded-lg hover:bg-cta-green transition-colors"
-          >
-            Join
-          </a>
+          {formUrl ? (
+            <a
+              href={formUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-secondary text-white font-semibold rounded-lg hover:bg-cta-green transition-colors"
+            >
+              Join
+            </a>
+          ) : (
+            <a
+              href={`mailto:${theme.contact.email}?subject=I want to stay updated`}
+              className="inline-block px-6 py-3 bg-secondary text-white font-semibold rounded-lg hover:bg-cta-green transition-colors"
+            >
+              Email Us to Join
+            </a>
+          )}
         </div>
       </SectionReveal>
     </section>

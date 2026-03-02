@@ -23,7 +23,7 @@ export default function EventsPage() {
             title="Upcoming Events"
             subtitle="Join us in person — meet Candace, hear the vision, and connect with your neighbors."
           />
-          <EventsClient events={events} rsvpEnabled={theme.events.rsvpEnabled} />
+          <EventsClient events={events} />
         </div>
       </section>
       <CTABanner />
