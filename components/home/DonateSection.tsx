@@ -1,15 +1,7 @@
-'use client';
-
-import { useState } from 'react';
-import Link from 'next/link';
 import { theme } from '@/theme.config';
-import PulseButton from '@/components/animation/PulseButton';
-import DonationImpact from '@/components/interactive/DonationImpact';
 import SectionReveal from '@/components/animation/SectionReveal';
 
 export default function DonateSection() {
-  const [selectedAmount, setSelectedAmount] = useState<number | null>(null);
-
   return (
     <section className="py-16 sm:py-20 bg-white">
       <SectionReveal>
@@ -20,21 +12,6 @@ export default function DonateSection() {
           <p className="text-text-muted text-lg mb-8">
             Every dollar stays local — investing in the communities of NW Detroit, Oak Park, and Royal Oak Township.
           </p>
-
-          <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 mb-6">
-            {theme.donation.suggestedAmounts.map((amount) => (
-              <PulseButton
-                key={amount}
-                onClick={() => setSelectedAmount(amount)}
-                isActive={selectedAmount === amount}
-                activeColor={theme.colors.secondary}
-              >
-                ${amount}
-              </PulseButton>
-            ))}
-          </div>
-
-          <DonationImpact selectedAmount={selectedAmount} className="mb-8" />
 
           <a
             href={theme.donation.actBlueUrl}

@@ -17,17 +17,6 @@ export const SECONDARY_NAV_ITEMS = [
   { label: "Contact", href: "/contact" },
 ] as const;
 
-export const IMPACT_MESSAGES: Record<number, string> = {
-  25: "Covers 50 door hangers reaching families in Oak Park",
-  50: "Funds campaign materials for a neighborhood canvass",
-  100: "Powers a community town hall in Royal Oak Township",
-  250: "Enables a week of targeted digital outreach to 5,000 voters",
-  500: "Funds a full community event with speakers and refreshments",
-  1000: "Powers a month of grassroots organizing across all three communities",
-};
-
-export const DEFAULT_IMPACT_MESSAGE = "Every dollar powers the movement for affordable, educated, and connected communities";
-
 export const MICHIGAN_VOTER_URLS = {
   lookup: "https://mvic.sos.state.mi.us/",
   register: "https://mvic.sos.state.mi.us/RegisterVoter",

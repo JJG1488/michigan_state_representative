@@ -132,16 +132,7 @@ export const theme = {
   },
   donation: {
     maxIndividualContribution: 1000,
-    suggestedAmounts: [25, 50, 100, 250, 500, 1000] as number[],
-    goalAmount: 50000,
-    currentAmount: 0,
-    showThermometer: false,
-    enableRecurring: true,
     actBlueUrl: "https://secure.actblue.com/donate/votecandacecalloway",
-    stripePublishableKey: "",
-    enableApplePay: true,
-    enableCashApp: true,
-    enablePayPal: true,
   },
   compliance: {
     disclaimerText: "Paid for by Committee to Elect Candace Calloway",
