@@ -184,6 +184,7 @@ export const theme = {
     confirmed: [
       { name: "Marian McClellan", title: "Oak Park Mayor", photo: "" },
       { name: "Angela Whitfield Calloway", title: "Councilwoman, District 2", photo: "" },
+      { name: "Donna Squalls", title: "Royal Oak Township Supervisor", photo: "" },
     ],
     includeLucy: true,
   },
