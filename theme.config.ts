@@ -176,8 +176,8 @@ export const theme = {
   forms: {
     contact: "",
     rsvp: "",
-    volunteer: "",
-    yardSign: "",
+    volunteer: "https://forms.gle/wBcEz5F47dpjZ32w7",
+    yardSign: "https://forms.gle/54EFGfDQycGzR9Ae8",
     subscribe: "",
   },
   endorsements: {
