@@ -35,7 +35,7 @@ export const theme = {
         color: "#0A7D3F",
         slug: "affordability",
         topics: ["Childcare costs", "Auto insurance", "Property taxes", "Post-secondary affordability", "Basic needs", "Medical care", "Utility costs"],
-        heroStat: { value: "48%", label: "more for auto insurance than the national average" },
+        heroStat: { value: "48%", label: "more for auto insurance than the national average", link: "" },
         positionSummary: "My campaign is built on a people-first, community-driven commitment: to make life affordable for everyone at all stages. I recognize that rising costs for things like medical care, insurance, property taxes, childcare, housing, utility costs and meeting basic needs are squeezing families. I commit to invest in long-term workforce solutions, expanding affordable housing opportunities and supportive resources for small businesses.",
         emotionalAngle: "Whether you're just getting started, raising a family, or enjoying retirement — costs are out of control. That changes now.",
         solutions: [
@@ -55,7 +55,7 @@ export const theme = {
         color: "#060951",
         slug: "education",
         topics: ["K-12 readiness", "Reading & math scores", "Statewide curriculum", "Trades & workforce", "College alternatives", "Early childhood & Pre-K funding", "Teacher-family-admin relationships"],
-        heroStat: { value: "44th", label: "out of 50 states in 3rd grade reading" },
+        heroStat: { value: "1,427,386", label: "students enrolled in Michigan", link: "https://www.mischooldata.org/" },
         positionSummary: "Everyone, regardless of background, deserves access to high-quality education in their own backyard that prepares them for a rapidly changing world. We can get there together by fostering strong relationships between teachers, family and administration and investing in early childhood and Pre-K funding.",
         emotionalAngle: "Every child in Michigan deserves a world-class education — whether their path leads to a university or a union hall.",
         solutions: [
@@ -75,7 +75,7 @@ export const theme = {
         color: "#0D3D2B",
         slug: "infrastructure",
         topics: ["Roads & transportation", "Public transit & accessibility", "Zoning reform", "Small business support", "Affordable housing", "Existing housing repair", "Environmental protections"],
-        heroStat: { value: "It's not just the roads", label: "— it's where they take us." },
+        heroStat: { value: "It's not just the roads", label: "— it's where they take us.", link: "" },
         positionSummary: "I am advocating for equitable and sustainable infrastructure investment including both our roads and the places they take us to. I believe that our money is best spent on investment that promotes economic growth, improves public transportation and accessibility, provides environmental protections and allows small businesses to remain and thrive in our communities.",
         emotionalAngle: "We need to invest in our communities — not just new developments, but the neighborhoods we already call home.",
         solutions: [

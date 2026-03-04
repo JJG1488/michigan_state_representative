@@ -11,6 +11,7 @@ interface ScrollStatCounterProps {
   direction?: 'up' | 'down';
   duration?: number;
   label?: string;
+  link?: string;
   pillarColor?: string;
   className?: string;
 }
@@ -22,6 +23,7 @@ export default function ScrollStatCounter({
   direction = 'up',
   duration = 1.5,
   label,
+  link,
   pillarColor,
   className = '',
 }: ScrollStatCounterProps) {
@@ -76,7 +78,15 @@ export default function ScrollStatCounter({
         {prefix}{formattedValue}{suffix}
       </motion.div>
       {label && (
-        <p className="mt-3 text-lg sm:text-xl text-text-muted max-w-md mx-auto">{label}</p>
+        <p className="mt-3 text-lg sm:text-xl text-text-muted max-w-md mx-auto">
+          {link ? (
+            <a href={link} target="_blank" rel="noopener noreferrer" className="underline hover:opacity-80 transition-opacity">
+              {label}
+            </a>
+          ) : (
+            label
+          )}
+        </p>
       )}
     </div>
   );
