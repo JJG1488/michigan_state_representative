@@ -21,7 +21,12 @@ interface EventsClientProps {
 export default function EventsClient({ events }: EventsClientProps) {
   const rsvpUrl = theme.forms.rsvp;
 
-  if (events.length === 0) {
+  const now = new Date();
+  const cutoff = new Date(now);
+  cutoff.setDate(cutoff.getDate() - 2);
+  const visibleEvents = events.filter((e) => new Date(e.date) >= cutoff);
+
+  if (visibleEvents.length === 0) {
     return (
       <div className="text-center py-12 px-6 bg-surface rounded-xl">
         <p className="text-text-muted text-lg">No upcoming events at this time. Check back soon!</p>
@@ -31,7 +36,7 @@ export default function EventsClient({ events }: EventsClientProps) {
 
   return (
     <div className="space-y-6">
-      {events.map((event) => (
+      {visibleEvents.map((event) => (
         <div key={event.id} className="p-6 rounded-xl border border-border hover:shadow-md transition-shadow">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
