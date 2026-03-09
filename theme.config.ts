@@ -179,7 +179,7 @@ export const theme = {
     volunteer: "https://forms.gle/wBcEz5F47dpjZ32w7",
     yardSign: "https://forms.gle/54EFGfDQycGzR9Ae8",
     subscribe: "",
-    web3formsKey: "",
+    web3formsKey: "7f95990b-6648-49a2-b641-3c83d695a753",
   },
   endorsements: {
     confirmed: [
