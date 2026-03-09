@@ -78,7 +78,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} {theme.compliance.committeeName}. All rights reserved.
           </p>
           <p className="text-center text-xs text-white/30 mt-2 pb-16 md:pb-0">
-            Website by James Gault
+            Website by <a href="https://www.jgservicesllc.com/contact" target="_blank" rel="noopener noreferrer" className="hover:text-white/50 transition-colors">James Gault</a>
           </p>
         </div>
       </div>
