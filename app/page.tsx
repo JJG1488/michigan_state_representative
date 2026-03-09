@@ -6,6 +6,7 @@ import EmailCapture from '@/components/home/EmailCapture';
 import EndorsementsStrip from '@/components/home/EndorsementsStrip';
 import CTABanner from '@/components/shared/CTABanner';
 import DonateSection from '@/components/home/DonateSection';
+import WhatsYourIssue from '@/components/home/WhatsYourIssue';
 import SocialProof from '@/components/home/SocialProof';
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         />
       ))}
 
+      <WhatsYourIssue />
       <EmailCapture />
       <EndorsementsStrip />
 

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { theme } from '@/theme.config';
 import SectionHeader from '@/components/shared/SectionHeader';
+import IssueForm from '@/components/shared/IssueForm';
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -8,8 +9,6 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-  const formUrl = theme.forms.contact;
-
   return (
     <section className="py-16 sm:py-20">
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,23 +32,8 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {formUrl ? (
-          <a
-            href={formUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-8 py-4 text-lg font-bold text-white bg-primary rounded-lg hover:bg-cta-hover transition-colors"
-          >
-            Contact Us
-          </a>
-        ) : (
-          <p className="text-text-muted text-sm">
-            You can reach us anytime at{' '}
-            <a href={`mailto:${theme.contact.email}`} className="text-primary hover:underline">
-              {theme.contact.email}
-            </a>.
-          </p>
-        )}
+        <h3 className="text-xl font-bold text-text mb-4">Or Send Us a Message</h3>
+        <IssueForm subjectPrefix="Contact" />
       </div>
     </section>
   );

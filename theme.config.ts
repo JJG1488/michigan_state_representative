@@ -179,12 +179,14 @@ export const theme = {
     volunteer: "https://forms.gle/wBcEz5F47dpjZ32w7",
     yardSign: "https://forms.gle/54EFGfDQycGzR9Ae8",
     subscribe: "",
+    web3formsKey: "",
   },
   endorsements: {
     confirmed: [
       { name: "Marian McClellan", title: "Oak Park Mayor", photo: "" },
       { name: "Angela Whitfield Calloway", title: "Councilwoman, District 2", photo: "" },
       { name: "Donna Squalls", title: "Royal Oak Township Supervisor", photo: "" },
+      { name: "Regina Weiss", title: "State Representative, District 5", photo: "" },
     ],
     includeLucy: true,
   },

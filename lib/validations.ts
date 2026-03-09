@@ -50,6 +50,12 @@ export const donationSchema = z.object({
   complianceConfirmed: z.boolean().refine(val => val === true, 'You must confirm compliance'),
 });
 
+export const issueSchema = z.object({
+  name: z.string().min(2, 'Name must be at least 2 characters'),
+  email: emailSchema,
+  message: z.string().min(10, 'Message must be at least 10 characters'),
+});
+
 export const subscribeSchema = z.object({
   email: emailSchema,
 });
@@ -59,4 +65,5 @@ export type YardSignFormData = z.infer<typeof yardSignSchema>;
 export type ContactFormData = z.infer<typeof contactSchema>;
 export type RSVPFormData = z.infer<typeof rsvpSchema>;
 export type DonationFormData = z.infer<typeof donationSchema>;
+export type IssueFormData = z.infer<typeof issueSchema>;
 export type SubscribeFormData = z.infer<typeof subscribeSchema>;
