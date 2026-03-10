@@ -116,9 +116,9 @@ export const theme = {
     secondaryColor: "#065124",
   },
   social: {
-    facebook: "",
+    facebook: "https://www.facebook.com/votecandacecalloway",
     twitter: "",
-    instagram: "",
+    instagram: "https://www.instagram.com/votecandacecalloway",
     youtube: "",
     tiktok: "",
     linkedin: "",
