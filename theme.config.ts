@@ -149,26 +149,8 @@ export const theme = {
     phone: "(313) 857-8989",
   },
   events: {
-    announcementEvents: [
-      {
-        date: "March 6, 2026",
-        time: "6:00 PM",
-        location: "Detroit",
-        venue: "U of D Jesuit Johnson Recreation Center",
-        address: "8550 Chippewa Avenue, Detroit, MI 48235",
-        type: "Campaign Kickoff",
-        flyer: "/campaignkickoffmarch6.png",
-      },
-      {
-        date: "March 7, 2026",
-        time: "2:00 PM",
-        location: "Oak Park",
-        venue: "Hansen's Hall",
-        address: "8210 W Nine Mile Rd, Oak Park, MI 48237",
-        type: "Campaign Kickoff",
-        flyer: "/campaignkickoffmarch7.png",
-      },
-    ],
+    // Events are now managed via /admin — uploaded to Supabase
+    announcementEvents: [] as { date: string; time: string; location: string; venue: string; address: string; type: string; flyer: string }[],
     estimatedFrequency: "1 per month",
     hidePastEvents: true,
     managedBy: "Candace (self)",
