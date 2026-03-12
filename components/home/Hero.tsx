@@ -17,7 +17,7 @@ export default function HeroSection() {
         src="/candacecallowayhero.jpeg"
         alt="Candace Calloway Headshot"
         fill
-        className="object-cover object-[center_70%] opacity-20"
+        className="object-cover object-[center_70%] opacity-40"
         priority
       />
 
