@@ -45,7 +45,7 @@ export default function AboutPage() {
       {/* Bio */}
       <section className="py-16 sm:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeader title="Why I'm Running" />
+          <SectionHeader title="Why Candace is Running" />
 
           <div className="prose prose-lg max-w-none text-text">
             <p className="text-xl leading-relaxed mb-6">
