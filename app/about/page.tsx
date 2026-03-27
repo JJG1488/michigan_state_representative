@@ -7,7 +7,7 @@ import CTABanner from '@/components/shared/CTABanner';
 
 export const metadata: Metadata = {
   title: 'About Candace Calloway',
-  description: 'Learn about Candace Calloway — her background in construction, education, and urban environmental conservation, and why she is running for Michigan State House Representative.',
+  description: 'Learn about Candace Calloway — AmeriCorps alumnus, construction professional, and founder of The Black Pack. Running for Michigan State House Representative in District 5.',
 };
 
 export default function AboutPage() {
@@ -49,15 +49,19 @@ export default function AboutPage() {
 
           <div className="prose prose-lg max-w-none text-text">
             <p className="text-xl leading-relaxed mb-6">
-              Born and raised in Detroit, I have spent my career at the intersection of construction, education, and urban environmental conservation. I founded <strong>The Black Pack</strong> — an outdoor organization focused on increasing Black employment in outdoor recreation and environmental conservation.
+              Candace Calloway, a Detroit Democrat, is a first-time candidate who works in construction for the <strong>City of Detroit</strong>. She is an alumnus of the AmeriCorps program, <strong>City Year</strong>, serving in classrooms alongside teachers before working as an Academic Interventionist with <strong>Detroit Public Schools Community District</strong>. Candace has extensive experience tackling aging infrastructure issues, working with <strong>The Nature Conservancy</strong> to identify nature-based solutions for urban stormwater and flooding challenges.
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              I understand the challenges our communities face because I live them. From the rising cost of auto insurance to the state of our schools, these aren&apos;t abstract policy debates — they&apos;re kitchen table conversations I have with my neighbors in NW Detroit, Oak Park, and Royal Oak Township every day.
+              She founded <strong>The Black Pack</strong> in 2024, an organization to increase the rates of Black people employed in outdoor recreation and environmental conservation jobs. She is also a part of the <strong>Detroit Association of Women&apos;s Clubs, Incorporated</strong>, a women-focused nonprofit dedicated to preserving Detroit women&apos;s history. Calloway has also been a part of <strong>Alpha Kappa Alpha Sorority, Incorporated</strong> since 2013.
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              My campaign is built on three pillars: making life <strong>affordable</strong> for working families, improving <strong>educational outcomes</strong> for our children, and investing in <strong>safe infrastructure</strong> that strengthens our communities. I believe we deserve leadership that evolves with our needs.
+              She graduated from <strong>Andover High School</strong> in Bloomfield Hills and received her Bachelor&apos;s Degree in Applied Health Sciences from <strong>Bowling Green State University</strong> in Ohio.
+            </p>
+
+            <p className="text-lg leading-relaxed mb-6">
+              Her campaign is built on three pillars: making life <strong>affordable</strong> for working families, improving <strong>educational outcomes</strong> for our children, and investing in <strong>safe infrastructure</strong> that strengthens our communities. She believes we deserve leadership that evolves with our needs.
             </p>
           </div>
 
