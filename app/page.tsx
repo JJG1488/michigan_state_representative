@@ -17,6 +17,8 @@ export default function Home() {
       <HeroSection />
       {/* <SocialProof /> */}
 
+      <DonateSection />
+
       {/* Pillar Sections */}
       {pillars.map((pillar, index) => (
         <PillarSection
@@ -48,7 +50,6 @@ export default function Home() {
         </div>
       </section>
 
-      <DonateSection />
       <CTABanner />
     </main>
   );
