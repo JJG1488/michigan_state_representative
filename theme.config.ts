@@ -6,7 +6,7 @@ export const theme = {
     office: "State House Representative",
     district: "NW Detroit, Oak Park, Royal Oak Township",
     state: "Michigan",
-    tagline: "Lead with Hope",
+    tagline: "Right person. Right reasons. Right time.",
     primaryElectionDate: "August 4, 2026",
     generalElectionDate: "November 3, 2026",
     opponents: ["Cali Scales", "Crystal Bailey"],

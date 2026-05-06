@@ -1,6 +1,6 @@
 export const SITE_NAME = "Vote Candace Calloway";
 export const SITE_URL = "https://votecandacecalloway.com";
-export const SITE_DESCRIPTION = "Candace Calloway for Michigan State House Representative — Lead with Hope. Fighting for affordability, education, and safe infrastructure in NW Detroit, Oak Park, and Royal Oak Township.";
+export const SITE_DESCRIPTION = "Candace Calloway for Michigan State House Representative — Right person. Right reasons. Right time. Fighting for affordability, education, and safe infrastructure in NW Detroit, Oak Park, and Royal Oak Township.";
 
 export const NAV_ITEMS = [
   { label: "About", href: "/about" },
