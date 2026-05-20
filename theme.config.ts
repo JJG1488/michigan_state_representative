@@ -167,12 +167,24 @@ export const theme = {
   },
   endorsements: {
     confirmed: [
-      { name: "Regina Weiss", title: "Incumbent State Representative, District 5", photo: "" },
-      { name: "Donna Squalls", title: "Royal Oak Township Supervisor", photo: "" },
-      { name: "Marian McClellan", title: "Oak Park Mayor", photo: "" },
-      { name: "Angela Whitfield-Calloway", title: "City of Detroit Councilmember", photo: "" },
+      { name: "Regina Weiss", title: "Incumbent State Representative, District 5", photo: "/images/endorsements/Regina-Weiss.JPG" },
+      { name: "Donna Squalls", title: "Royal Oak Township Supervisor", photo: "/images/endorsements/Donna-Squalls.JPG" },
+      { name: "Marian McClellan", title: "Oak Park Mayor", photo: "/images/endorsements/Marian-McClellan.JPG" },
+      { name: "Angela Whitfield-Calloway", title: "City of Detroit Councilmember", photo: "/images/endorsements/angela-whitfield-calloway.JPG" },
+      { name: "Natalie Price", title: "State Representative - District 6", photo: "/images/endorsements/Natalie-Price.JPG" },
+      { name: "Julie Edgar", title: "Mayor Pro Tem - Oak Park", photo: "/images/endorsements/Julie-Edgar.JPG" },
+      { name: "The Black Slate", title: "", photo: "/images/endorsements/the-black-slate.JPG" },
+      { name: "Run for Something", title: "", photo: "/images/endorsements/run-for-something.jpg" },
+      { name: "Jessica Newman", title: "Ferndale Board of Education", photo: "/images/endorsements/Jessica-Newman.JPG" },
+      { name: "Glenda Stainback", title: "", photo: "/images/endorsements/Glenda-Stainback.JPG" },
+      { name: "MI List", title: "", photo: "/images/endorsements/mi-list.JPG"},
+      { name: "Paige Mattison", title: "President of Oak Park Board of Education", photo: "/images/endorsements/Paige-Mattison.JPG" },
+      { name: "Heather Perryman Tanks", title: "Treasurer of Oak Park Board of Education", photo: "/images/endorsements/heather-perryman-tanks.JPG" },
+      { name: "Fannie Lou Hamer PAC", title: "", photo: "" },
+      { name: "Buzz Thomas", title: "Former Michigan Legislator", photo: "/images/endorsements/buzz-thomas.JPG" },
+
     ],
-    includeLucy: true,
+    includeLucy: false,
   },
 } as const;
 
