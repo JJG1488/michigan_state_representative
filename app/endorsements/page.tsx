@@ -3,6 +3,7 @@ import { theme } from '@/theme.config';
 import SectionHeader from '@/components/shared/SectionHeader';
 import CTABanner from '@/components/shared/CTABanner';
 import EndorsementTicker from '@/components/interactive/EndorsementTicker';
+import EndorsementsGrid from '@/components/endorsements/EndorsementsGrid';
 
 export const metadata: Metadata = {
   title: 'Endorsements',
@@ -43,17 +44,7 @@ export default function EndorsementsPage() {
             <h3 className="text-lg font-semibold text-text-muted uppercase tracking-wider">
               Elected Officials &amp; Community Leaders
             </h3>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {theme.endorsements.confirmed.map((endorsement) => (
-                <div
-                  key={endorsement.name}
-                  className="p-5 rounded-xl border border-border hover:shadow-md transition-shadow"
-                >
-                  <p className="font-bold text-text">{endorsement.name}</p>
-                  <p className="text-sm text-text-muted">{endorsement.title}</p>
-                </div>
-              ))}
-            </div>
+            <EndorsementsGrid endorsements={theme.endorsements.confirmed} />
 
             {/* Lucy */}
             {theme.endorsements.includeLucy && (
