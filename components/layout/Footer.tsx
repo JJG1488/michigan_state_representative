@@ -99,9 +99,9 @@ export default function Footer() {
           <p className="text-center text-sm text-white/90 font-medium">
             {theme.compliance.disclaimerText}
           </p>
-          <p className="text-center text-xs text-white/60 mt-1">
+          {/* <p className="text-center text-xs text-white/60 mt-1">
             {theme.compliance.committeeAddress} &bull; Treasurer: {theme.compliance.treasurerName}
-          </p>
+          </p> */}
           <p className="text-center text-xs text-white/40 mt-4">
             &copy; {new Date().getFullYear()} {theme.compliance.committeeName}. All rights reserved.
           </p>
