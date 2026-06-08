@@ -185,8 +185,8 @@ export const theme = {
       { name: "Darryl Woods", title: "Detroit Police Commissioner At-Large", photo: "/images/endorsements/Darryl-Woods.JPG" },
       { name: "IBEW Local 58", title: "", photo: "/images/endorsements/IBEW-Local-58.JPG" },
       { name: "Planned Parenthood Advocates of Michigan", title: "", photo: "" },
-      { name: "Young Democrats of Michigan", title: "", photo: "/images/endorsements/young-democrats-of-michigan.png" },
-
+      { name: "Young Democrats of Michigan", title: "", photo: "/images/endorsements/Young-Democrats-of-Michigan.png" },
+      {name: "Northern Midwest Regional Council of Carpenters", title: "", photo: "/images/endorsements/Northern-Midwest-Regional-Council-of-Carpenters.JPG"},
     ],
     includeLucy: false,
   },
