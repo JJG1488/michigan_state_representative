@@ -17,9 +17,13 @@ export default function HeroSection() {
         src="/candacecallowayhero.jpeg"
         alt="Candace Calloway Headshot"
         fill
-        className="object-cover object-[center_70%] opacity-40"
+        className="object-cover object-[center_70%] opacity-100"
         priority
       />
+      {/* Smart overlay - transparent in center, darker at edges for text contrast */}
+      <div className="absolute inset-0" style={{
+        background: 'radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.3) 100%)'
+      }} />
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
