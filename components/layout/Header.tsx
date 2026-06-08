@@ -10,6 +10,7 @@ const actBlueUrl = theme.donation.actBlueUrl;
 const NAV_ITEMS = [
   { label: 'About', href: '/about' },
   { label: 'Issues', href: '/issues' },
+  { label: 'Media', href: '/media' },
   { label: 'Get Involved', href: '/get-involved' },
 ] as const;
 

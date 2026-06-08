@@ -165,6 +165,120 @@ export const theme = {
     subscribe: "",
     web3formsKey: "7f95990b-6648-49a2-b641-3c83d695a753",
   },
+  media: [
+    {
+      id: "photo-1",
+      type: "photo" as const,
+      src: "/images/media/20260507_184134.jpg",
+    },
+    {
+      id: "photo-2",
+      type: "photo" as const,
+      src: "/images/media/0BAA0EF7-D639-4637-800B-F429EF242A8C.jpg",
+    },
+    {
+      id: "photo-3",
+      type: "photo" as const,
+      src: "/images/media/74E89B41-C909-44E7-82DE-A0D40F236C93.jpg",
+    },
+    {
+      id: "photo-4",
+      type: "photo" as const,
+      src: "/images/media/DSC07880.jpeg",
+    },
+    {
+      id: "photo-5",
+      type: "photo" as const,
+      src: "/images/media/DSC07929.jpeg",
+    },
+    {
+      id: "photo-6",
+      type: "photo" as const,
+      src: "/images/media/DSC07968.jpeg",
+    },
+    {
+      id: "photo-7",
+      type: "photo" as const,
+      src: "/images/media/DSC07971.jpeg",
+    },
+    {
+      id: "photo-8",
+      type: "photo" as const,
+      src: "/images/media/IMG_0875.jpeg",
+    },
+    {
+      id: "photo-9",
+      type: "photo" as const,
+      src: "/images/media/IMG_1125.JPG",
+    },
+    {
+      id: "photo-10",
+      type: "photo" as const,
+      src: "/images/media/IMG_4316.jpeg",
+    },
+    {
+      id: "photo-11",
+      type: "photo" as const,
+      src: "/images/media/IMG_9659.jpeg",
+    },
+    {
+      id: "photo-12",
+      type: "photo" as const,
+      src: "/images/media/MDP 5.jpeg",
+    },
+    {
+      id: "photo-13",
+      type: "photo" as const,
+      src: "/images/media/Small Biz 10.jpeg",
+    },
+    {
+      id: "photo-14",
+      type: "photo" as const,
+      src: "/images/media/Small Biz 14.jpeg",
+    },
+    {
+      id: "photo-15",
+      type: "photo" as const,
+      src: "/images/media/att.Z4F3abSZ0iCMCR7waGRXBt98MCfbZePA3AQTtDLUQmA.jpg",
+    },
+    {
+      id: "photo-16",
+      type: "photo" as const,
+      src: "/images/media/att.pBJbKGfKmW_-UD12BUkBfwmu35nSbDlTMbQ5a7dutFo.jpg",
+    },
+    {
+      id: "photo-17",
+      type: "photo" as const,
+      src: "/images/media/att.vMT7vl0bLJFyXpDfThP6rfdCtsG5BmlzlDej3BMl0eo.jpg",
+    },
+    {
+      id: "video-1",
+      title: "2026 Candidate Interview: Candace Calloway for State Representative District 5",
+      type: "video" as const,
+      src: "https://www.youtube.com/embed/qSo6OWF05Ag",
+      thumbnail: "/images/media/2026 Candidate Interview.jpg",
+      description: "Meet Candace - a comprehensive interview about her vision for District 5.",
+      date: "May 2026",
+    },
+    {
+      id: "video-2",
+      title: "Campaign Video",
+      type: "video" as const,
+      src: "/images/media/64195235-E31B-4FD1-9A18-606490A765ED.mp4",
+      thumbnail: "/images/media/64195235-E31B-4FD1-9A18-606490A765ED-thumb.jpg",
+      description: "Campaign event coverage from District 5.",
+      date: "June 2026",
+    },
+    {
+      id: "video-3",
+      title: "Campaign Highlight",
+      type: "video" as const,
+      src: "/images/media/IMG_7596.mp4",
+      thumbnail: "/images/media/IMG_7596-thumb.jpg",
+      description: "Highlights from recent campaign activities.",
+      date: "June 2026",
+    },
+  ],
   endorsements: {
     confirmed: [
       { name: "Regina Weiss", title: "Incumbent State Representative, District 5", photo: "/images/endorsements/Regina-Weiss.JPG" },

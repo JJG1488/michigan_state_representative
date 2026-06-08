@@ -106,7 +106,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} {theme.compliance.committeeName}. All rights reserved.
           </p>
           <p className="text-center text-xs text-white/30 mt-2 pb-16 md:pb-0">
-            Website by James Gault
+            Website by James Gault and Akil Clark
           </p>
         </div>
       </div>
