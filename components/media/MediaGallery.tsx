@@ -48,7 +48,7 @@ export default function MediaGallery({ items }: MediaGalleryProps) {
     <>
       {/* Filter Buttons */}
       <div className="flex flex-wrap gap-3 mb-8 justify-center">
-        {(['all', 'photo', 'video'] as const).map((category) => (
+        {(['all', 'photo', 'video', 'file'] as const).map((category) => (
           <button
             key={category}
             onClick={() => setFilter(category)}
