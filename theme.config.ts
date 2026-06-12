@@ -252,6 +252,164 @@ export const theme = {
       src: "/images/media/att.vMT7vl0bLJFyXpDfThP6rfdCtsG5BmlzlDej3BMl0eo.jpg",
     },
     {
+      id: "photo-18",
+      type: "photo" as const,
+      src: "/images/media/3A0B3FE1-7B33-49FC-9DC4-ABAA9935303A.jpg",
+    },
+    {
+      id: "photo-19",
+      type: "photo" as const,
+      src: "/images/media/53045505405_96a6c30009_b.jpeg",
+    },
+    {
+      id: "photo-20",
+      type: "photo" as const,
+      src: "/images/media/79ecfff7-2bec-48e2-ab8c-134fe71f9902.jpg",
+    },
+    {
+      id: "photo-21",
+      type: "photo" as const,
+      src: "/images/media/DD055DC6-DBE0-4142-ABCE-B2B70B2A6D43.jpg",
+    },
+    {
+      id: "photo-22",
+      type: "photo" as const,
+      src: "/images/media/IMG_0089.JPG",
+    },
+    {
+      id: "photo-23",
+      type: "photo" as const,
+      src: "/images/media/IMG_0095.jpeg",
+    },
+    {
+      id: "photo-24",
+      type: "photo" as const,
+      src: "/images/media/IMG_0755.JPG",
+    },
+    {
+      id: "photo-25",
+      type: "photo" as const,
+      src: "/images/media/IMG_1250.JPG",
+    },
+    {
+      id: "photo-26",
+      type: "photo" as const,
+      src: "/images/media/IMG_1723.JPG",
+    },
+    {
+      id: "photo-27",
+      type: "photo" as const,
+      src: "/images/media/IMG_2265.jpg",
+    },
+    {
+      id: "photo-28",
+      type: "photo" as const,
+      src: "/images/media/IMG_2479.JPG",
+    },
+    {
+      id: "photo-29",
+      type: "photo" as const,
+      src: "/images/media/IMG_3510.JPG",
+    },
+    {
+      id: "photo-30",
+      type: "photo" as const,
+      src: "/images/media/IMG_3511.JPG",
+    },
+    {
+      id: "photo-31",
+      type: "photo" as const,
+      src: "/images/media/IMG_3514.JPG",
+    },
+    {
+      id: "photo-32",
+      type: "photo" as const,
+      src: "/images/media/IMG_3601.JPG",
+    },
+    {
+      id: "photo-33",
+      type: "photo" as const,
+      src: "/images/media/IMG_3984.jpg",
+    },
+    {
+      id: "photo-34",
+      type: "photo" as const,
+      src: "/images/media/IMG_4051.JPG",
+    },
+    {
+      id: "photo-35",
+      type: "photo" as const,
+      src: "/images/media/IMG_4052.JPG",
+    },
+    {
+      id: "photo-36",
+      type: "photo" as const,
+      src: "/images/media/IMG_4053.JPG",
+    },
+    {
+      id: "photo-37",
+      type: "photo" as const,
+      src: "/images/media/IMG_4089.JPG",
+    },
+    {
+      id: "photo-38",
+      type: "photo" as const,
+      src: "/images/media/IMG_4099.JPG",
+    },
+    {
+      id: "photo-39",
+      type: "photo" as const,
+      src: "/images/media/IMG_4551.JPG",
+    },
+    {
+      id: "photo-40",
+      type: "photo" as const,
+      src: "/images/media/IMG_7715.jpeg",
+    },
+    {
+      id: "photo-41",
+      type: "photo" as const,
+      src: "/images/media/IMG_7747.JPG",
+    },
+    {
+      id: "photo-42",
+      type: "photo" as const,
+      src: "/images/media/IMG_8395.JPG",
+    },
+    {
+      id: "photo-43",
+      type: "photo" as const,
+      src: "/images/media/IMG_8760.jpeg",
+    },
+    {
+      id: "photo-44",
+      type: "photo" as const,
+      src: "/images/media/IMG_9656.jpeg",
+    },
+    {
+      id: "photo-45",
+      type: "photo" as const,
+      src: "/images/media/Resized_20230513_125258.jpeg",
+    },
+    {
+      id: "photo-46",
+      type: "photo" as const,
+      src: "/images/media/IMG_5487.JPG",
+    },
+    {
+      id: "photo-47",
+      type: "photo" as const,
+      src: "/images/media/IMG_8947.PNG",
+    },
+    {
+      id: "file-1",
+      type: "file" as const,
+      src: "/images/media/Calloway NMRCC.pdf",
+      title: "Northern Midwest Regional Council of Carpenters Endorsement",
+      description: "Endorsement letter from the Northern Midwest Regional Council of Carpenters",
+      date: "June 2, 2026",
+    },
+    {
       id: "video-1",
       title: "2026 Candidate Interview: Candace Calloway for State Representative District 5",
       type: "video" as const,
@@ -301,6 +459,8 @@ export const theme = {
       { name: "Planned Parenthood Advocates of Michigan", title: "", photo: "" },
       { name: "Young Democrats of Michigan", title: "", photo: "/images/endorsements/Young-Democrats-of-Michigan.png" },
       {name: "Northern Midwest Regional Council of Carpenters", title: "", photo: "/images/endorsements/Northern-Midwest-Regional-Council-of-Carpenters.JPG"},
+      { name: "American Federation of State County and Municipal Employees", title: "", photo: "/images/endorsements/AFSCME.JPG" },
+      { name: "Fems For Dems", title: "", photo: "/images/endorsements/Fems for Dems.JPG" },
     ],
     includeLucy: false,
   },
