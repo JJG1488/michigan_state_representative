@@ -12,6 +12,7 @@ const NAV_ITEMS = [
   { label: 'Issues', href: '/issues' },
   { label: 'Media', href: '/media' },
   { label: 'Get Involved', href: '/get-involved' },
+  { label: 'Endorsements', href: '/endorsements' },
 ] as const;
 
 export default function Header() {
