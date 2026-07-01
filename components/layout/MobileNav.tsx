@@ -12,6 +12,7 @@ const ALL_NAV_ITEMS = [
   { label: 'Issues', href: '/issues' },
   { label: 'Media', href: '/media' },
   { label: 'Get Involved', href: '/get-involved' },
+  { label: 'Endorsements', href: '/endorsements' },
   { label: 'District', href: '/district' },
   { label: 'Events', href: '/events' },
   { label: 'Research', href: '/research' },
