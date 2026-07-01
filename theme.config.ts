@@ -451,6 +451,7 @@ export const theme = {
       { name: "Regina Weiss", title: "Incumbent State Representative, District 5", photo: "/images/endorsements/Regina-Weiss.JPG" },
       { name: "Donna Squalls", title: "Royal Oak Township Supervisor", photo: "/images/endorsements/Donna-Squalls.JPG" },
       { name: "Marian McClellan", title: "Oak Park Mayor", photo: "/images/endorsements/Marian-McClellan.JPG" },
+      { name: "Mary Sheffield", title: "Mayor of City of Detroit", photo: "/images/endorsements/Mary Sheffield.jpg" },
       { name: "Angela Whitfield-Calloway", title: "City of Detroit Councilmember", photo: "/images/endorsements/angela-whitfield-calloway.JPG" },
       { name: "Natalie Price", title: "State Representative - District 6", photo: "/images/endorsements/Natalie-Price.JPG" },
       { name: "Julie Edgar", title: "Mayor Pro Tem - Oak Park", photo: "/images/endorsements/Julie-Edgar.JPG" },
@@ -470,6 +471,10 @@ export const theme = {
       {name: "Northern Midwest Regional Council of Carpenters", title: "", photo: "/images/endorsements/Northern-Midwest-Regional-Council-of-Carpenters.JPG"},
       { name: "American Federation of State County and Municipal Employees", title: "", photo: "/images/endorsements/AFSCME.JPG" },
       { name: "Fems For Dems", title: "", photo: "/images/endorsements/fems-for-dems-official.png" },
+      { name: "Michigan Education Association", title: "", photo: "/images/endorsements/MEA.PNG" },
+      { name: "American Federation of Teachers", title: "", photo: "/images/endorsements/AFT.JPG" },
+      { name: "League of Conservation Voters", title: "", photo: "/images/endorsements/Michigan League of Conserv Voters.png" },
+
     ],
     includeLucy: false,
   },
