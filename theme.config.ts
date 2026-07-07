@@ -474,6 +474,11 @@ export const theme = {
       { name: "Michigan Education Association", title: "", photo: "/images/endorsements/MEA.PNG" },
       { name: "American Federation of Teachers", title: "", photo: "/images/endorsements/AFT.JPG" },
       { name: "League of Conservation Voters", title: "", photo: "/images/endorsements/Michigan League of Conserv Voters.png" },
+      { name: "SEIU Michigan ", title: "", photo: "/images/endorsements/SEIU Black.png" },
+      { name: "MDP Grassroots Caucus", title: "", photo: "/images/endorsements/MDP Grassroots Caucus.jpg" },
+      { name: "Wayne County Democratic Black Caucus", title: "", photo: "/images/endorsements/Wayne County Dem Black Caucus.jpg" },
+      { name: "Michigan Professional Firefighters Union", title: "", photo: "/images/endorsements/Michigan-Professional-Fire-Fighters-Union-2.webp" },
+      { name: "Council of Baptist Pastors of Detroit & Vicinity", title: "", photo: "/images/endorsements/Council of Baptist Pastors.jpg" },
 
     ],
     includeLucy: false,
