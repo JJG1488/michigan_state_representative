@@ -139,7 +139,7 @@ export const theme = {
   compliance: {
     disclaimerText: "Paid for by Committee to Elect Candace Calloway",
     treasurerName: "",
-    committeeAddress: "P.O. Box 21785, Detroit, MI 48221",
+    committeeAddress: "",
     committeeName: "Committee to Elect Candace Calloway",
     ein: "41-4169186",
     bankName: "First Independent",
