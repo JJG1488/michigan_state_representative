@@ -140,7 +140,7 @@ export const theme = {
     disclaimerText: "Paid for by Committee to Elect Candace Calloway",
     treasurerName: "",
     committeeAddress: "P.O. Box 21785, Detroit, MI 48221",
-    committeeName: "Committee to Elect Candace Calloway.",
+    committeeName: "Committee to Elect Candace Calloway",
     ein: "41-4169186",
     bankName: "First Independent",
     stateFilingUrl: "https://www.michigan.gov/sos/elections/disclosure/cfr",
